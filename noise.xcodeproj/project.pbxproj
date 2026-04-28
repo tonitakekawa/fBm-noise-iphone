@@ -10,9 +10,33 @@
 		5B0FD7C12F9DE50F00D389D6 /* noise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = noise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5B0B6C802FA0CA58004FD1F8 /* Exceptions for "noise" folder in "noise" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"目論見2.md",
+			);
+			target = 5B0FD7C02F9DE50F00D389D6 /* noise */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		5B0B6C812FA0CA58004FD1F8 /* Exceptions for "noise" folder in "Compile Sources" phase from "noise" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 5B0FD7BD2F9DE50F00D389D6 /* Sources */;
+			membershipExceptions = (
+				"目論見2.md",
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		5B0FD7C32F9DE50F00D389D6 /* noise */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5B0B6C802FA0CA58004FD1F8 /* Exceptions for "noise" folder in "noise" target */,
+				5B0B6C812FA0CA58004FD1F8 /* Exceptions for "noise" folder in "Compile Sources" phase from "noise" target */,
+			);
 			path = noise;
 			sourceTree = "<group>";
 		};
